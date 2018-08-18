@@ -1,6 +1,6 @@
 package malygos
 
-func sortingSlice(list []int) []int {
+func SortingSlice(list []int) []int {
 	len := len(list)
 	i := 0
 
