@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package malygos
 
 func sortingSlice(list []int) []int {
 	len := len(list)
@@ -29,11 +27,4 @@ func sortingSlice(list []int) []int {
 	}
 
 	return list
-}
-
-func main() {
-	list := []int{4, 2, 3, 1}
-	sortedList := sortingSlice(list)
-
-	fmt.Println(sortedList)
 }
